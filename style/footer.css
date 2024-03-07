@@ -1,0 +1,61 @@
+footer {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+footer .hidden {
+  display: none;
+}
+footer .inner .ft-contents {
+  padding: 50px 0;
+  width: 1320px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+footer .inner .ft-contents .ft-info figure {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+footer .inner .ft-contents .ft-info .address {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+footer .inner .ft-contents .ft-info ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .inner .ft-contents .ft-info ul li {
+  margin-right: 10px;
+}
+footer .inner .ft-contents .ft-info ul li:last-of-type {
+  margin: 0;
+}
+footer .inner .ft-contents .ft-info ul li a {
+  font-size: 14px;
+  color: #777;
+}
+footer .inner .ft-contents .sns {
+  display: flex;
+}
+footer .inner .ft-contents .sns li {
+  margin-right: 10px;
+}
+footer .inner .ft-contents .sns li:last-of-type {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  footer .inner .ft-contents {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  footer .inner .ft-contents .ft-info {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=footer.css.map */

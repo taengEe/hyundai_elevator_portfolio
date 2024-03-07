@@ -1,0 +1,580 @@
+main {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+main .hidden {
+  display: none;
+}
+main .sc-tt {
+  margin-bottom: 15px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: -0.035em;
+}
+main .sc-sub-tt {
+  margin-bottom: 70px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: 14px;
+  color: #777;
+  letter-spacing: -0.035em;
+}
+main .main-visual .inner .swiper .swiper-slide {
+  height: 1000px;
+}
+main .main-visual .inner .swiper .swiper-slide.first {
+  background: url("../imgs/main01.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .main-visual .inner .swiper .swiper-slide.sec {
+  background: url("../imgs/main02.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .main-visual .inner .swiper .swiper-slide.thr {
+  background: url("../imgs/main03.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .main-visual .inner .swiper .swiper-slide .main-txt {
+  position: relative;
+  width: 1320px;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  color: #fff;
+}
+main .main-visual .inner .swiper .swiper-slide .main-txt h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+main .main-visual .inner .swiper .swiper-slide .main-txt .main-prev {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 26px;
+  height: 32px;
+  background: url("../imgs/prev_btn.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+main .main-visual .inner .swiper .swiper-slide .main-txt .main-prev::after {
+  display: none;
+}
+main .main-visual .inner .swiper .swiper-slide .main-txt .main-next {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  width: 26px;
+  height: 32px;
+  background: url("../imgs/next_btn.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+main .main-visual .inner .swiper .swiper-slide .main-txt .main-next::after {
+  display: none;
+}
+main .main-visual .inner .swiper .main-pagination {
+  padding-bottom: 3%;
+}
+main .main-visual .inner .swiper .main-pagination span {
+  position: relative;
+  padding: 0 1rem 2rem;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+  font-weight: bold;
+}
+main .main-visual .inner .swiper .main-pagination span::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main .about {
+  margin-bottom: 140px;
+}
+main .about .proud {
+  width: 1320px;
+  margin: 100px auto;
+  max-width: 80%;
+}
+main .about .proud ul {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+main .about .proud ul li {
+  width: 15.5%;
+  padding: 25px;
+  background: #F9F9F9;
+}
+main .about .proud ul li h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #00AF66;
+  font-weight: bold;
+}
+main .about .proud ul li p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+}
+main .about .inner {
+  width: 1320px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+main .about .inner .about-hd {
+  text-align: center;
+  margin-bottom: 70px;
+}
+main .about .inner .about-hd h3 {
+  margin-bottom: 15px;
+}
+main .about .inner .about-bd {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+main .about .inner .about-bd .item-list {
+  width: 33.33333%;
+}
+main .about .inner .about-bd figure {
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+main .about .inner .about-bd figure img {
+  max-width: 100%;
+}
+main .about .inner .about-bd .item-txt h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+main .about .inner .about-bd .item-txt p {
+  margin-bottom: 40px;
+  line-height: 1.5em;
+  font-size: 14px;
+  color: #777;
+}
+main .about .inner .about-bd .item-txt a {
+  display: inline-block;
+  padding: 12px 20px 13px;
+  font-size: 14px;
+  color: #00AF66;
+  border: 1px solid #00AF66;
+}
+main .about .inner .about-bd .item-txt a:hover {
+  background: #00AF66;
+  color: #fff;
+}
+main .project {
+  margin-bottom: 150px;
+}
+main .project .inner {
+  width: 100%;
+  background: url("../imgs/pj_bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .project .inner .pj-contents {
+  width: 1320px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 85px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+main .project .inner .pj-contents .pj-intro {
+  position: relative;
+  margin-right: 200px;
+}
+main .project .inner .pj-contents .pj-intro h3 {
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+main .project .inner .pj-contents .pj-intro p {
+  margin-bottom: 60px;
+  line-height: 1.5em;
+}
+main .project .inner .pj-contents .pj-intro a {
+  display: inline-block;
+  color: #fff;
+  padding: 12px 20px 13px;
+  border: 1px solid #fff;
+}
+main .project .inner .pj-contents .pj-intro .pj-prev {
+  position: absolute;
+  top: 95%;
+  left: 0%;
+  width: 26px;
+  height: 32px;
+  background: url("../imgs/prev_btn.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .project .inner .pj-contents .pj-intro .pj-prev::after {
+  display: none;
+}
+main .project .inner .pj-contents .pj-intro .pj-next {
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  width: 26px;
+  height: 32px;
+  background: url("../imgs/next_btn.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .project .inner .pj-contents .pj-intro .pj-next::after {
+  display: none;
+}
+main .project .inner .pj-contents .pj-slider .swiper-slide a:hover img {
+  transform: scale(1.1);
+}
+main .project .inner .pj-contents .pj-slider .swiper-slide a:hover .pj-txt {
+  background: #00AF66;
+  color: #fff;
+}
+main .project .inner .pj-contents .pj-slider .swiper-slide a figure {
+  overflow: hidden;
+}
+main .project .inner .pj-contents .pj-slider .swiper-slide a figure img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+}
+main .project .inner .pj-contents .pj-slider .swiper-slide a .pj-txt {
+  background: #fff;
+  margin-top: -2px;
+  padding: 24px 0 24px 20px;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+main .solution {
+  text-align: center;
+  padding-bottom: 200px;
+}
+main .solution .inner {
+  width: 1320px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+main .solution .inner .sol-bd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: start;
+}
+main .solution .inner .sol-bd figure {
+  width: 766px;
+  max-width: 55%;
+  overflow: hidden;
+}
+main .solution .inner .sol-bd figure img {
+  max-width: 100%;
+}
+main .solution .inner .sol-bd ul {
+  width: 40%;
+}
+main .solution .inner .sol-bd ul li {
+  margin-bottom: 20px;
+  padding: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+main .solution .inner .sol-bd ul li h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+main .solution .inner .sol-bd ul li h3.on {
+  margin-bottom: 20px;
+}
+main .solution .inner .sol-bd ul li p {
+  display: none;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.5em;
+  transition: max-height 0.3s ease-in-out;
+}
+main .solution .inner .sol-bd ul li p.on {
+  display: block;
+}
+main .customer .inner {
+  padding: 180px 0;
+  background: url("../imgs/cus_bg.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .customer .inner .cus-contents {
+  width: 1320px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .customer .inner .cus-contents .cus-txt {
+  color: #fff;
+}
+main .customer .inner .cus-contents .cus-txt h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+  margin-bottom: 30px;
+}
+main .customer .inner .cus-contents .cus-txt p {
+  letter-spacing: -0.025em;
+}
+main .customer .inner .cus-contents .cus-link-box {
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .customer .inner .cus-contents .cus-link-box li a {
+  position: relative;
+  display: inline-block;
+  width: 225px;
+  height: 225px;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+main .customer .inner .cus-contents .cus-link-box li a:hover {
+  background: #000;
+}
+main .customer .inner .cus-contents .cus-link-box li a h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+main .customer .inner .cus-contents .cus-link-box li a p {
+  font-size: 14px;
+}
+main .customer .inner .cus-contents .cus-link-box li a figure {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+main .customer .inner .cus-contents .cus-link-box li:first-of-type {
+  margin-right: 30px;
+}
+
+@media (max-width: 1430px) {
+  main .customer .inner .cus-contents .cus-txt h3 {
+    font-size: 2rem;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a {
+    width: 130px;
+    height: 130px;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a h4 {
+    font-size: 1rem;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a figure img {
+    width: 30px;
+  }
+}
+@media (max-width: 1280px) {
+  main .about .proud ul li {
+    width: 15%;
+    padding: 15px;
+  }
+  main .about .proud ul li h3 {
+    font-size: 18px;
+  }
+  main .about .proud ul li p {
+    font-size: 12px;
+  }
+  main .about .about-bd .item-list .item-txt h4 {
+    font-size: 14px;
+  }
+  main .about .about-bd .item-list .item-txt p {
+    font-size: 12px;
+  }
+  main .project .inner .pj-contents .pj-intro {
+    margin-right: 80px;
+  }
+  main .project .inner .pj-contents .pj-intro h3 {
+    font-size: 30px;
+  }
+  main .project .inner .pj-contents .pj-intro p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  main .project .inner .pj-contents .pj-slider .swiper-slide .pj-txt {
+    padding: 10px 8px !important;
+  }
+  main .project .inner .pj-contents .pj-slider .swiper-slide .pj-txt h4 {
+    font-size: 14px;
+  }
+  main .customer .inner .cus-contents .cus-txt h3 {
+    font-size: 1.5rem;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a {
+    width: 130px;
+    height: 130px;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a h4 {
+    font-size: 1rem;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a figure img {
+    width: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt h3 {
+    line-height: 1.25em !important;
+  }
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt .main-prev {
+    top: 80%;
+  }
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt .main-next {
+    top: 80%;
+    left: 20%;
+  }
+  main .about .proud ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main .about .proud ul li {
+    width: 42.5%;
+    margin-bottom: 4%;
+  }
+  main .about .about-bd .item-list .item-txt {
+    padding: 4%;
+    height: 180px;
+  }
+  main .project .inner .pj-contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .project .inner .pj-contents .pj-intro {
+    margin-right: 0;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  main .project .inner .pj-contents .pj-intro p {
+    margin-bottom: 50px;
+  }
+  main .project .inner .pj-contents .pj-intro .pj-next, main .project .inner .pj-contents .pj-intro .pj-prev {
+    display: none;
+  }
+  main .project .inner .pj-contents .pj-slider {
+    max-width: 80%;
+  }
+  main .solution .inner .sol-bd figure {
+    flex-grow: 1;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  main .solution .inner .sol-bd ul {
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+  }
+  main .customer .inner .cus-contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .customer .inner .cus-contents .cus-txt {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  main .customer .inner .cus-contents .cus-link-box {
+    max-width: 100%;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a {
+    width: 100px;
+    height: 100px;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a h4 {
+    font-size: 14px;
+  }
+  main .customer .inner .cus-contents .cus-link-box li a p {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  main .main-visual .inner .main-visual-slider {
+    height: 800px !important;
+  }
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt {
+    height: 800px;
+  }
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt h3 {
+    font-size: 30px;
+  }
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt p {
+    line-height: 1.5em;
+  }
+  main .main-visual .inner .main-visual-slider .swiper-slide .main-txt .main-prev, main .main-visual .inner .main-visual-slider .swiper-slide .main-txt .main-next {
+    display: none;
+  }
+  main .about .proud ul li {
+    width: 100%;
+  }
+  main .about .inner .about-hd .sc-tt {
+    font-size: 18px;
+  }
+  main .about .inner .about-hd .sc-sub-tt {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  main .about .inner .about-bd {
+    flex-direction: column;
+  }
+  main .about .inner .about-bd .item-list {
+    width: 100%;
+  }
+  main .project .inner .pj-contents .pj-slider .swiper-slide a .pj-txt {
+    padding: 20px !important;
+    text-align: center;
+  }
+  main .solution .inner .sol-bd figure {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

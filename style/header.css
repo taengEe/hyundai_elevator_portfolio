@@ -1,0 +1,200 @@
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+header .inner {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+header .inner.on {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+header .inner.scroll {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+header .inner .hover-bg {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 250px;
+  background: rgba(255, 255, 255, 0);
+  transition: all 0.5s;
+}
+header .inner .hover-bg.on {
+  top: 100%;
+  display: block;
+  background: rgb(255, 255, 255);
+}
+header .inner .hd-contents {
+  width: 1320px;
+  max-width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner .hd-contents nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner .hd-contents nav .pc-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .inner .hd-contents nav .pc-nav.clicked {
+  right: 0;
+}
+header .inner .hd-contents nav .pc-nav .nav-list {
+  position: relative;
+  padding: 20px 40px;
+}
+header .inner .hd-contents nav .pc-nav .nav-list a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+header .inner .hd-contents nav .pc-nav .nav-list a.on {
+  color: #333;
+}
+header .inner .hd-contents nav .pc-nav .nav-list a.scroll {
+  color: #333;
+}
+header .inner .hd-contents nav .pc-nav .nav-list .sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.5s;
+  opacity: 0;
+}
+header .inner .hd-contents nav .pc-nav .nav-list .sub-menu li {
+  padding: 16px 0 8px;
+}
+header .inner .hd-contents nav .pc-nav .nav-list .sub-menu li a {
+  color: #777;
+  font-size: 1rem;
+}
+header .inner .hd-contents nav .pc-nav .nav-list .sub-menu li a:hover {
+  color: #00AF66;
+  font-weight: 600;
+}
+header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.on {
+  display: block;
+  top: 100%;
+  opacity: 1;
+}
+header .inner .hd-contents nav .mb-nav {
+  display: none;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+header .inner .hd-contents nav .mb-nav span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #333;
+  margin-bottom: 6px;
+}
+header .inner .hd-contents nav .mb-nav span:last-of-type {
+  margin: 0;
+}
+header .inner .hd-contents nav .mb-nav span.on {
+  background: #333;
+}
+
+@media (max-width: 1280px) {
+  header .inner .hd-contents nav .pc-nav .nav-list a {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu .sub-menu-list a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    position: fixed;
+    top: 0;
+  }
+  header .inner {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  header .inner .hd-contents nav {
+    padding: 20px 0;
+  }
+  header .inner .hd-contents nav .pc-nav {
+    position: absolute;
+    top: 100%;
+    width: 80%;
+    right: -100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    transition: all 0.5s;
+  }
+  header .inner .hd-contents nav .pc-nav.clicked {
+    right: 0;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list {
+    position: relative;
+    text-align: start;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list > a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff !important;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu {
+    position: static;
+    opacity: 1;
+    transition: none;
+    text-align: start;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.sub01 {
+    margin: 20px 0 0 20px;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.sub02 {
+    margin: 20px 0 0 70px;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.sub03 {
+    margin: 20px 0 0 65px;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.sub04 {
+    margin: 20px 0 0 40px;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.sub05 {
+    margin: 20px 0 0 40px;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu.selected {
+    display: block;
+  }
+  header .inner .hd-contents nav .pc-nav .nav-list .sub-menu .sub-menu-list a {
+    color: #00AF66;
+    font-weight: 400;
+  }
+  header .inner .hd-contents nav .mb-nav {
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */
